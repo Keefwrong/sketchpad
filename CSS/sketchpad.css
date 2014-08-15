@@ -1,18 +1,27 @@
 .container{
-	width:416px;
-	height:416px;
-	margin: 100px auto auto auto;
+	width:960px;
+	height:960px;
+	margin: 0px auto auto auto;
+	padding:0px;
 }
 span{
 	display: block;
+	margin:0px;
+	padding:0px;
 }
 span div{
-	height: 20px;
-	width: 20px;
-	border: 1px dashed red;
+	/*height: 58px;
+	width: 58px;*/
 	display: inline-block;
-	margin: 2px 2px;
+	margin: 0px;
+	border:1px solid red;
+
 }
 .red{
 	background-color:red;
+}
+button{
+	position: fixed;
+	left:100px;
+	top:200px;
 }
