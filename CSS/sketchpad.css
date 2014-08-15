@@ -1,0 +1,18 @@
+.container{
+	width:416px;
+	height:416px;
+	margin: 100px auto auto auto;
+}
+span{
+	display: block;
+}
+span div{
+	height: 20px;
+	width: 20px;
+	border: 1px dashed red;
+	display: inline-block;
+	margin: 2px 2px;
+}
+.red{
+	background-color:red;
+}
